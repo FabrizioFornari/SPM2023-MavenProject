@@ -25,6 +25,12 @@
       <version>4.13.1</version>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>org.json</groupId>
+      <artifactId>json</artifactId>
+      <version>20231013</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -69,6 +75,7 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+        <!-- https://mvnrepository.com/artifact/org.json/json -->
       </plugins>
     </pluginManagement>
   </build>
